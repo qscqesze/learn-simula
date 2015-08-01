@@ -1,13 +1,13 @@
-#Chapter 2
+#第二章
 
-#\- and end at the end
+#\- 最后的最后
 
-##The nature of correct programs
+##正确程序的本质
 
-###Rules and penalties
+###规则和惩罚
 
-Chapter one gave an example of a correct program. When you altered it as you were asked to in exercise 1.3 and recompiled it, some of the results will have been incorrect programs. (If you have not yet completed the exercises in chapter 1, you should do so now. It will be much easier for you to follow this chapter.)
-The compiler will have printed error messages for some of these variations. It may also have printed warnings. Sometimes, though probably not in any of your attempts at 1.3, the compiler will report success in producing the machine instruction version, but the part of the SIMULA system which runs the program, which we call the runtime system, will print an error message or warning during the execution of the program.
+第一章给了一个正确程序的例子。当你按照练习1.3去修改并且编译它的时候，程序有时候会变得不正确。(如果你还没有完成第一章的练习的话，你应该现在就去做。那样会使得你更容易的学习本章内容哦。)
+对于一些代码，编译器也许会返回一些错误信息，也许会返回一些警告。 有时, though probably not in any of your attempts at 1.3, the compiler will report success in producing the machine instruction version, but the part of the SIMULA system which runs the program, which we call the runtime system, will print an error message or warning during the execution of the program.
 
 Clearly there are rules to be followed in writing programs. In chapter 1 some were mentioned in passing, but only two were spelt out. One was that every block starts with the keyword begin and finishes with the keyword end; the other was that the rest of a program is made up of declarations and statements.
 
