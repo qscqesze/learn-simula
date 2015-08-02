@@ -14,11 +14,11 @@
 
 要使程序正确，必须遵守所有SIMULA的规则，有时编译器能够在编译的时候发现你的错误，有时编译器仅仅会在运行程序的时候才会发现错误，还有时编译和运行的时候，都没有返回错误，但是运行出的结果，并不是预期的结果。
 
-Even when a program compiles and runs without producing error messages, the program is only correct if the actions performed are those intended. In this case we have written a correct SIMULA program, but not the correct program to perform the task required. This book will teach you to write correct SIMULA programs. It can only guide you towards writing programs which perform correctly. The rest is up to plain common sense, planning and persistence - the three Ps of programming.
+甚至当编译器，运行没有报错，程序也仅仅会在操作正确的时候，才会返回正确的结果。在这种情况下，我们写了一个正确的程序，但这个程序对于这个任务而言，并不正确。这本书，将会教会你如何去写一个正确的SIMULA程序，它仅仅会引导你去写一个正确的程序，而剩下的就是去学习基础知识，不停的思考与坚 - 这就是我们所说的3P（plain common sense, planning and persistence)
 
-When it comes to writing correct SIMULA programs, there are two sets of rules. Although it is not always sensible to separate them, the error messages from the compiler may refer to mistakes in this way and so we will look at them briefly now.
+写程序时，这儿有两类规则。尽管有时这种分类方法看上去并不合理，但编译器返回的错误信息，还是会在某种程度上符合这种分法，那我们就简单的这样分吧。
 
-###Syntax rules
+###语法规则
 
 The commonest errors reported by a compiler are those which do not obey the grammar or "syntax" of the language. Often they are the result of typing errors. If you still have not managed exercise 1.1, this is probably because of a syntax error caused by mistyping.
 The rule that a program block must start with begin and finish with end is a syntax rule.
