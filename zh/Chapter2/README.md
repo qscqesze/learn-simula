@@ -7,11 +7,12 @@
 ###规则和惩罚
 
 第一章给了一个正确程序的例子。当你按照练习1.3去修改并且编译它的时候，程序有时候会变得不正确。(如果你还没有完成第一章的练习的话，你应该现在就去做。那样会使得你更容易的学习本章内容哦。)
-对于一些代码，编译器也许会返回一些错误信息，也许会返回一些警告。 有时, though probably not in any of your attempts at 1.3, the compiler will report success in producing the machine instruction version, but the part of the SIMULA system which runs the program, which we call the runtime system, will print an error message or warning during the execution of the program.
 
-Clearly there are rules to be followed in writing programs. In chapter 1 some were mentioned in passing, but only two were spelt out. One was that every block starts with the keyword begin and finishes with the keyword end; the other was that the rest of a program is made up of declarations and statements.
+对于一些代码，编译器也许会返回一些错误信息，也许会返回一些警告。有时,尽管你在练习1.3中的尝试没有任何问题，运行SIMULA代码的编译器也返回编译成功，但是在运行该程序的时候，也就是我们说的运行时间，会输出错误信息或者警告。
 
-To be correct a program must follow all the rules of SIMULA. Sometimes the compiler can detect mistakes; sometimes they only show up when we run the program; sometimes, but very rarely, the compiler and runtime system both fail to detect an error, with unpredictable results.
+这里有一些你在写程序时，需要遵守的规则。在第一章有一些已经提及，但是仅仅阐明了两条内容。一是每一块都用begin开头，用end结尾，而其他的部分由申明和语句组成。
+
+要使程序正确，必须遵守所有SIMULA的规则，有时编译器能够在编译的时候发现你的错误，有时编译器仅仅会在运行程序的时候才会发现错误，还有时编译和运行的时候，都没有返回错误，但是运行出的结果，并不是预期的结果。
 
 Even when a program compiles and runs without producing error messages, the program is only correct if the actions performed are those intended. In this case we have written a correct SIMULA program, but not the correct program to perform the task required. This book will teach you to write correct SIMULA programs. It can only guide you towards writing programs which perform correctly. The rest is up to plain common sense, planning and persistence - the three Ps of programming.
 
